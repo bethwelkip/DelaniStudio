@@ -36,14 +36,25 @@ body{
 #logo__img{
 }
 #about{
-    padding-top: 3%;
+    padding-top: 5%;
+    font-size: 98%;
 
 }
 #services{
-
+    height: 45%;
+    padding-top: 5%;
+    font-size: 50%;
+}
+#head{
+    padding-top: 5.4%;
+    padding-bottom: 0;
 }
 #what{
 
+}
+.what-we-do{
+   list-style: none;
+   display: inline;
 }
 #portfolio{
 
