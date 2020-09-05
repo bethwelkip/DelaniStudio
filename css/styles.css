@@ -17,7 +17,7 @@ body{
     background-size: cover;
     height: 100%;
     width: 100%;
-    padding-top: 22%;
+    padding-top: 23%;
     color: white;
     position: relative;
 }
@@ -50,7 +50,6 @@ body{
     padding-bottom: 0;
 }
 #what{
-width: 100%;
 justify-content: space-between;
 display: inline;
 }
@@ -66,10 +65,30 @@ display: inline;
     padding-left:10%;
     padding-top: 5%;
 }
+.row{
+    padding-right: 34.0%;
+    padding-left: 10%;
+}
+.col-md-3{
+    position:relative;
+    display: inline-block;
+    padding:10px 10px 10px 10px;
+}
+.col-md-3__img{
+    background-size: cover;
+}
+
 #contact{
 
 }
-#footer{
+#footer li{
+    text-decoration: none;
+    list-style-type: none;
+    list-style-image: unset;
+    display: inline;
+}
+#footer h5{
+    font-size: 10px;
 
 }
 
