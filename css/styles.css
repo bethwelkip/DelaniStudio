@@ -1,0 +1,31 @@
+*{
+    margin: 0rem;
+    padding-left: 0;
+    text-align: center;
+}
+
+body{
+    display: flex;  
+    flex-direction: row;   
+}
+.logo{
+    background-image: url("../img/h_img.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    color: white;
+}
+.design-photo, development-photo, pm-photo{
+    display: inline;
+}
+
+
+
+
+
+.footer li{
+    text-decoration: none;
+    list-style-type: none;
+    list-style-image: unset;
+    display: inline;
+    font-size: 80px;}
