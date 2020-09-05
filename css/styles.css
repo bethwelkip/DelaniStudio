@@ -53,6 +53,10 @@ body{
 justify-content: space-between;
 display: inline;
 }
+#we{
+    padding-top: 2.5%;
+    padding-right: 8%;
+}
 .what-we-do{
    list-style: none;
    display: flex;
@@ -63,7 +67,7 @@ display: inline;
     width: 100%;
     padding-right: 20%;
     padding-left:10%;
-    padding-top: 5%;
+    padding-top: 2.5%;
 }
 .row{
     padding-right: 34.0%;
