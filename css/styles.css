@@ -2,6 +2,7 @@
     margin: 0rem;
     padding-left: 0;
     text-align: center;
+    /*overflow-y: scroll; */
 }
 
 body{
@@ -15,13 +16,17 @@ body{
     text-align: center;
     color: white;
 }
-.design-photo, development-photo, pm-photo{
-    display: inline;
+.What ul{
+    list-style-type: none;
+    list-style-image: unset;
+    display: inline;}
+.services{
+    font-size: 5;
 }
+.card-img{
+    height: 400px;
 
-
-
-
+}
 
 .footer li{
     text-decoration: none;
