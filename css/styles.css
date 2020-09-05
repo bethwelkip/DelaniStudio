@@ -62,12 +62,14 @@ display: inline;
    display: flex;
    flex-direction: row;
    padding-right: 10%;
+
 }
 .What li{
     width: 100%;
     padding-right: 20%;
     padding-left:10%;
     padding-top: 2.5%;
+    font-size: 80%;
 }
 .row{
     padding-right: 34.0%;
@@ -83,6 +85,11 @@ display: inline;
 }
 
 #contact{
+    background-image: url("../img/c_image.jpg");
+    height: 60vh;
+    background-size: cover;
+    padding-top: 5%;
+    color: white;
 
 }
 #footer li{
