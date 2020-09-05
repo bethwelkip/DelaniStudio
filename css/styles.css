@@ -50,14 +50,21 @@ body{
     padding-bottom: 0;
 }
 #what{
-
+width: 100%;
+justify-content: space-between;
+display: inline;
 }
 .what-we-do{
    list-style: none;
-   display: inline;
+   display: flex;
+   flex-direction: row;
+   padding-right: 10%;
 }
-#portfolio{
-
+.What li{
+    width: 100%;
+    padding-right: 20%;
+    padding-left:10%;
+    padding-top: 5%;
 }
 #contact{
 
