@@ -64,8 +64,11 @@ display: inline;
    padding-right: 10%;
 
 }
-.photo{
-    display:none ;
+.photo1,.photo2,.photo3{
+    display: block ;
+}
+#what-hide1, #what-hide2, #what-hide3{
+    display: none
 }
 .what-hide{
 margin: 0mm;
