@@ -9,10 +9,13 @@ body{
     margin: 0;
 }
 *{
+    border: 0;
     margin:0;
     padding:0;
-    font: 1em https://fonts.google.com/specimen/EB+Garamond?sidebar.open=true&selection.family=EB+Garamond;
+    border-radius: 0;
+    font: Garamond;
 }
+
 #logo{
     background-image: url("../img/h_img.jpg");
     background-size: cover;
@@ -28,14 +31,14 @@ body{
     justify-content: space-around;
 }
 #welcome{
-    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2.5%;
 }
 #mouse{
     padding-top: 16%; 
     padding-bottom: 3%;
 }
-#logo__img{
-}
+
 #about{
     padding-top: 5%;
 
@@ -50,8 +53,13 @@ body{
 }*/
 
 #what{
-justify-content: space-between;
-display: inline;
+    justify-content: space-between;
+    display: inline;
+}
+.What p{
+    margin-right: 0%;
+    margin-left: 0%;
+    padding:0 ;
 }
 #we{
     padding-top: 2.5%;
@@ -67,11 +75,9 @@ display: inline;
 .photo1,.photo2,.photo3{
     display: block ;
 }
-#what-hide1, #what-hide2, #what-hide3{
-    display: none
-}
+
 .what-hide{
-margin: 0mm;
+margin-left: 0mm;
 padding: 0%;
 border: 0mm;
    
@@ -85,26 +91,36 @@ border: 0mm;
     font-size: 80%;
 }
 #what-hide1,#what-hide2, #what-hide3{
-display: flexbox;
+display: none;
 width: 15em;
 margin: 0mm;
 padding: 0%;
 border: 0mm;
 }
 .row{
-    padding-right: 15.0%;
-    padding-left: 11%;
+    margin-left: 11%;
+    margin-right: 8%;
+    padding-right: 0.0%;
+    padding-left: 0%;
 }
 .col-md-3{
     position:relative;
     display: inline-block;
-    padding:10px 10px 10px 10px;
+    padding:5px 5px 5px 5px;
+    
 }
-.col-md-3__img{
+.col-md-3 img{
+    width: 100%;
     object-fit: cover;
 }
 .hide{
+    border: 5px solid rgb(85, 85, 85);
     display: none;
+    border: 2rem;
+}
+
+#hover1:hover,#hover2:hover,#hover3:hover, #hover4:hover, #hover5:hover, #hover6:hover, #hover7:hover, #hover8:hover{
+    filter: brightness(30%)
 }
 
 #contact{
@@ -208,4 +224,57 @@ margin:100px 0 100px 0;
 .card{
     display: inline;
     padding-right: 5.0%;
-    margin-right: 2%;}
+    margin-right: 2%;
+}
+#Name, #email, #Message{
+justify-content: left;
+background: transparent;}
+#Name{
+    width: 250px;
+    margin-right: 200px;
+}
+#email{
+    width: 250px;
+     height:50px
+}
+.col-md-6{
+    margin: 0;
+    width: 100%;
+}
+
+.contact-form{
+     margin-top:15px;
+     align-content: left;
+     background: transparent;
+     float: left;
+     
+    }
+    .form-group{
+        text-align: left;
+    }
+.contact-form .textarea{ 
+    width: 100%;
+    min-height:30vh;
+    resize:none;
+}
+.form-control{
+     box-shadow:none;
+      border-color:#eee; 
+      height:49px;
+    }
+
+.form-control-feedback{
+     line-height:100px;
+     
+    }
+.main-btn{ 
+    background:transparent;
+     border-color:#fff;
+      color:#fff;}
+.main-btn:hover{
+     background-color:#fff;
+    }
+.form-control-feedback {
+line-height: 50px;
+top: 0px;
+}
