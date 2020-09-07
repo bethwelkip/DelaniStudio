@@ -27,17 +27,18 @@ $(document).ready(function () {
     $("#photo3").click(function () {
         $(".photo3").css("display", "none");
         $("#what-hide3").css("display", "block");
-
-        $(".container").hover(function () {
-            $("body").removeClass(".hide");
-        })
     });
 
-
-
-
-
-
+    $("form").submit(function () {
+        var name = $("#Name").val();
+        console.log(name);
+        var email = $("#email").val();
+        console.log(email);
+        var yes = $("textarea").val();
+        console.log(yes);
+        var message = "Thank you for contacting us, " + name + ". We have received your message"
+        alert(message);
+    });
 
 
 
