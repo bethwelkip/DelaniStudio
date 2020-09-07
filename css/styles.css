@@ -65,7 +65,7 @@ display: inline;
 
 }
 .photo{
-    display: ;
+    display:none ;
 }
 .what-hide{
 margin: 0mm;
@@ -82,8 +82,12 @@ border: 0mm;
     font-size: 80%;
 }
 #what-hide1,#what-hide2, #what-hide3{
-  
-    }
+display: flexbox;
+width: 15em;
+margin: 0mm;
+padding: 0%;
+border: 0mm;
+}
 .row{
     padding-right: 15.0%;
     padding-left: 11%;
@@ -94,8 +98,10 @@ border: 0mm;
     padding:10px 10px 10px 10px;
 }
 .col-md-3__img{
-    background-size: cover;
     object-fit: cover;
+}
+.hide{
+    display: none;
 }
 
 #contact{
