@@ -2,16 +2,19 @@ body{
     margin:0;
     padding:0;
     background-color: transparent;
+    display: flex;  
+    flex-direction: column;  
 }
+
 .jumbotron{
     background: none;
     padding: 0;
     margin: 0;
 }
 *{
-    border: 0;
-    margin:0;
-    padding:0;
+    border-right: 0;
+    margin-right:0;
+    padding-right:0;
     border-radius: 0;
     font: Garamond;
 }
@@ -53,8 +56,11 @@ body{
 }*/
 
 #what{
-    justify-content: space-between;
-    display: inline;
+    /*justify-content: space-between;
+    display: inline;*/
+    margin-right: 0%;
+    margin-left: 0%;
+    padding:0 ;
 }
 .What p{
     margin-right: 0%;
@@ -69,7 +75,7 @@ body{
    list-style: none;
    display: flex;
    flex-direction: row;
-   padding-right: 10%;
+   padding-right: 0%;
 
 }
 .photo1,.photo2,.photo3{
@@ -77,7 +83,7 @@ body{
 }
 
 .what-hide{
-margin-left: 0mm;
+margin: -10mm;
 padding: 0%;
 border: 0mm;
    
@@ -92,7 +98,7 @@ border: 0mm;
 }
 #what-hide1,#what-hide2, #what-hide3{
 display: none;
-width: 15em;
+width: 13em;
 margin: 0mm;
 padding: 0%;
 border: 0mm;
@@ -226,10 +232,15 @@ margin:100px 0 100px 0;
     padding-right: 5.0%;
     margin-right: 2%;
 }
+input.placeholder{
+    color: white;
+}
 #Name, #email, #Message{
+    color: white;
 justify-content: left;
 background: transparent;}
 #Name{
+    color: white;
     width: 250px;
     margin-right: 200px;
 }
