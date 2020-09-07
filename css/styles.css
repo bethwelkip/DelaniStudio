@@ -11,6 +11,7 @@ body{
 *{
     margin:0;
     padding:0;
+    font: 1em https://fonts.google.com/specimen/EB+Garamond?sidebar.open=true&selection.family=EB+Garamond;
 }
 #logo{
     background-image: url("../img/h_img.jpg");
@@ -37,18 +38,17 @@ body{
 }
 #about{
     padding-top: 5%;
-    font-size: 98%;
 
 }
 #services{
-    height: 45%;
-    padding-top: 5%;
+  height: 45%;
     font-size: 50%;
-}
+}/*
 #head{
-    padding-top: 5.4%;
-    padding-bottom: 0;
-}
+    padding-top: 0%;
+    padding-bottom: -15%;
+}*/
+
 #what{
 justify-content: space-between;
 display: inline;
@@ -64,6 +64,16 @@ display: inline;
    padding-right: 10%;
 
 }
+.photo{
+    display: ;
+}
+.what-hide{
+margin: 0mm;
+padding: 0%;
+border: 0mm;
+   
+}
+
 .What li{
     width: 100%;
     padding-right: 20%;
@@ -71,9 +81,12 @@ display: inline;
     padding-top: 2.5%;
     font-size: 80%;
 }
+#what-hide1,#what-hide2, #what-hide3{
+  
+    }
 .row{
-    padding-right: 34.0%;
-    padding-left: 10%;
+    padding-right: 15.0%;
+    padding-left: 11%;
 }
 .col-md-3{
     position:relative;
@@ -82,6 +95,7 @@ display: inline;
 }
 .col-md-3__img{
     background-size: cover;
+    object-fit: cover;
 }
 
 #contact{
@@ -182,3 +196,7 @@ margin:100px 0 100px 0;
 
 }
 */
+.card{
+    display: inline;
+    padding-right: 5.0%;
+    margin-right: 2%;}
