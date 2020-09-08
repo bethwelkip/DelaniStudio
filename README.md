@@ -1,5 +1,4 @@
 # DelaniStudio
-## A-Kanny Name
 #### This project is a recreation of the landing page of a studio.
 #### By **Bethwel Kiplimo**
 ## Description
