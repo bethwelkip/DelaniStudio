@@ -11,7 +11,7 @@ This codebase is standalone and does not require any other code.To run this webp
 ## Technologies Used
 The project incorporates HTML, CSS, JQuery and Javascript.
 ## Known Bugs
-I am aware of a styling issue with the "What we do" section that causes it to expand beyond the natueal width of a website. If any other bug is discovered, please don't hesitate to contact me.
+I am aware of a styling issue with the "What we do" section that causes it to expand beyond the natural width of a website. If any other bug is discovered, please don't hesitate to contact me.
 ## Link to Github page
 https://bethwelkip.github.io/DelaniStudio/
 ## Support and contact details
